@@ -1,3 +1,7 @@
+body {
+  background: radial-gradient(#003, #000);
+}
+
 .wrapper {
   width: 1400px;
   margin: auto;
@@ -5,4 +9,15 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 20px;
+}
+.wrapper-card {
+  width: 300px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 30px 0 30px;
+  margin-bottom: 30px;
+  background-color: #f7f5ec;
+  text-align: center;
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }/*# sourceMappingURL=style.css.map */
