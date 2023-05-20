@@ -20,5 +20,6 @@ function addCard(block) {
         h1.innerText = val.name; 
 
         div.append(img)
+        div.append(h1)
     })
 }
