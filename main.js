@@ -14,5 +14,9 @@ function addCard(block) {
         let div = document.createElement('div')
 
         let img = document.createElement('img');
+        img.src = val.image;
+
+
+        div.append(img)
     })
 }
