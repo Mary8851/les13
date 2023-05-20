@@ -6,3 +6,5 @@ fetch ("https://rickandmortyapi.com/api/character?page=5")
         let arr = data.results
         console(arr);
     })
+
+let wrap = document.querySelector(".wrapper")
