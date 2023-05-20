@@ -12,6 +12,7 @@ let wrap = document.querySelector(".wrapper")
 function addCard(block) {
     block.forEach(val => {
         let div = document.createElement('div');
+        div.classList.add('wrapper-card')
 
         let img = document.createElement('img');
         img.src = val.image;
