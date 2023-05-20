@@ -1,4 +1,8 @@
-body {
-    background: radial-gradient(#003, #000);
-}
-/*# sourceMappingURL=style.css.map */
+.wrapper {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */
