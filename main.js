@@ -21,5 +21,6 @@ function addCard(block) {
 
         div.append(img)
         div.append(h1)
+        wrap.append(div)
     })
 }
