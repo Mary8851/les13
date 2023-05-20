@@ -11,6 +11,7 @@ let wrap = document.querySelector(".wrapper")
 
 function addCard(block) {
     block.forEach(val => {
+        let div = document.createElement('div')
 
     })
 }
