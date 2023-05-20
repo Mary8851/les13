@@ -13,5 +13,6 @@ function addCard(block) {
     block.forEach(val => {
         let div = document.createElement('div')
 
+        let img = document.createElement('img');
     })
 }
