@@ -4,7 +4,7 @@ fetch ("https://rickandmortyapi.com/api/character?page=5")
     })
     .then((data) => {
         let arr = data.results
-        console(arr);
+        addCard(arr);
     })
 
 let wrap = document.querySelector(".wrapper")
