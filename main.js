@@ -8,3 +8,9 @@ fetch ("https://rickandmortyapi.com/api/character?page=5")
     })
 
 let wrap = document.querySelector(".wrapper")
+
+function addCard(block) {
+    block.forEach(val => {
+
+    })
+}
